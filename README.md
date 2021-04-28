@@ -1,1 +1,2 @@
 # AWSRedshift
+Designed a cloud architecture project which demonstrates the creation of a data pipeline by scraping data from Stock API AlphaVantage using AWS boto3 library in python and then creating a data delivery stream using Kinesis Firehose for ingesting data to Amazon Redshift. After the Redshift cluster is created I have created a database using the SQL client tool to query the data. Later the Redshift database is being accessed by BI Tool, Tableau for making Dashboard for analyzing the Stock data.
